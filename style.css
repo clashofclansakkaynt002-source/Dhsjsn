@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    touch-action: none;
+}
+
+canvas {
+    background: #333;
+    display: block;
+    margin: auto;
+}
+
+#overlay {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+button {
+    font-size: 22px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#gameOver {
+    font-size: 22px;
+    color: red;
+}
