@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Mobile AI Car Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>🚗 Mobile AI Car Game</h2>
+
+<canvas id="game"></canvas>
+
+<div id="overlay">
+    <button onclick="startGame()">▶ START</button>
+    <p id="gameOver" class="hidden">💥 GAME OVER<br>Торкнись, щоб перезапустити</p>
+</div>
+
+<p id="score">Score: 0</p>
+
+<script src="game.js"></script>
+</body>
+</html>
